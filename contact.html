@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio - RAKOTOARIMANANA Sitraky Ny Avo Francia</title>
+    <title>Contact - RAKOTOARIMANANA Sitraky Ny Avo Francia</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -19,20 +19,19 @@
     </header>
 
     <main>
-        <section class="intro">
-            <h2>Développeur Web & Desktop</h2>
-            <p>Je crée des applications web et desktop avec passion. Voici mes projets et compétences.</p>
-        </section>
+        <h2>Contactez-moi</h2>
+        <form action="mailto:17francia065a@gmail.com" method="post" enctype="text/plain">
+            <label>Nom :</label><br>
+            <input type="text" name="name" required><br><br>
 
-        <section class="skills">
-            <h3>Compétences</h3>
-            <ul>
-                <li>HTML, CSS, JavaScript</li>
-                <li>React / Vue.js</li>
-                <li>Java, C#, Php, Python</li>
-                <li>Git & GitHub</li>
-            </ul>
-        </section>
+            <label>Email :</label><br>
+            <input type="email" name="email" required><br><br>
+
+            <label>Message :</label><br>
+            <textarea name="message" rows="5" required></textarea><br><br>
+
+            <input type="submit" value="Envoyer">
+        </form>
     </main>
 
     <footer>
@@ -40,4 +39,3 @@
     </footer>
 </body>
 </html>
-
