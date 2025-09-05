@@ -1,8 +1,8 @@
 :root {
-    --primary: #A8DADC;
-    --secondary: #F1FAEE;
-    --accent: #457B9D;
-    --text: #1D3557;
+    --primary: #A8E6CF;   /* vert pastel */
+    --secondary: #F1FAEE; /* fond clair */
+    --accent: #37966F;    /* vert un peu plus foncé pour les hover */
+    --text: #1D3557;      /* texte principal */
 }
 
 body {
